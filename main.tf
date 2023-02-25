@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "bk_kube_rg" {
 }
 
 resource "azurerm_container_registry" "bk_acr_aks" {
-  name                = "bkacr"
+  name                = "bkacr1732"
   resource_group_name = azurerm_resource_group.bk_kube_rg.name
   location            = azurerm_resource_group.bk_kube_rg.location
   sku                 = "Basic"
