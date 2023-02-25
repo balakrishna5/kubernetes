@@ -16,7 +16,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
         - name: aksuserapi
-          image: bkazurecontainerrepo1.azurecr.io/aksuserapi-image:latest
+          image: bkacr1732.azurecr.io/userapi
           ports:
             - containerPort: 80
 ---
